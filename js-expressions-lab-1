@@ -82,9 +82,5 @@ const tot_temperature_in_celsius =
     day21TempC + day22TempC + day23TempC + day24TempC + day25TempC +
     day26TempC + day27TempC + day28TempC + day29TempC + day30TempC;
 
-module.exports = {
-    tot_temperature_in_fahrenheit,
-    tot_temperature_in_celsius,
-    avg_temperature_in_celsius,
-    avg_temperature_in_fahrenheit
-};
+const avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 30;
+const avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
